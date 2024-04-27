@@ -1,13 +1,13 @@
 #include "mathFunc.h"
 #include <iostream>
 
-int factorial(int x)
+int factorial(int n)
 {
     if (x < 0)
     {
         return 1;
     }
-    if (x == 1 || x == 0)
+    if (n == 1 || x == 0)
     {
         return 1;
     }
